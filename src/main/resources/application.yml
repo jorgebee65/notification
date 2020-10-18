@@ -1,0 +1,11 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /lonche/api
+app:
+  notifications:
+    enable: false
+    templates: "/tmp/templates/"
+    gmail:
+      user: ${GMAIL_USR}
+      password: ${GMAIL_PASS}
